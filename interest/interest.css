@@ -1,0 +1,134 @@
+a{text-decoration: none; color:#000000;}
+a:hover{
+    color: #1b747e;
+    transition-property: all;
+    transition-duration: 1s;
+}
+body{
+    margin:0;
+    background-color: rgb(237, 220, 199);
+}
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column ;
+}
+/* header */
+.site-name {
+    width: 400px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin:0;
+    font-weight: 600;
+    background: linear-gradient(to left, #4bc7d4, #09db76);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    z-index: 1px;
+}
+.div-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: -40px;
+    z-index: -1px;
+}
+.interest-menu{
+    display: inline-block;
+    width: 111.56px;
+    height: 24.5px;
+    margin-right: 14px;
+    transition-property: background-color,height,width;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 0px;
+}
+.work-menu{
+    display: inline-block;
+    width: 69.19px;
+    height: 24.5px;
+    margin-right: 15px;
+    transition-property: background-color,height,width;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 0px;
+}
+.info-menu{
+    display: inline-block;
+    width: 51.26px;
+    height: 24.5px;
+    margin-right: 0px;
+    transition-property: background-color,height,width;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 0px;
+}
+.interest-menu:hover{
+    height: 100px;
+    width: 150.56px;
+    background-color: #e3cc86;
+    transition: background-color 1s;
+    transition-property: height;
+    font-size: 20px;
+}
+.work-menu:hover{
+    height: 100px;
+    width: 111.56px;
+    background-color: #e3cc86;
+    transition: background-color 1s;
+    transition-property: height, width;
+    font-size: 20px;
+}
+.info-menu:hover{
+    background-color: #e3cc86;
+    transition: background-color 1s;
+    transition-property: height, width;
+    font-size: 20px;
+}
+.submenu{
+    margin: 0px;
+    list-style: none;
+    text-align: left;
+    text-transform: uppercase;
+}
+.submenu-title{
+    text-align: right;
+    margin: 0;
+}
+/* content */
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.con{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: darkgrey;
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.links > h3,a{
+    color: rgb(104, 129, 159);
+    margin: 0;
+}
